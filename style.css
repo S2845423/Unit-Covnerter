@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+#box {
+
+  width: 450px;
+text-align: center;   
+  padding: 50px;
+ 
+
+  
+background-image: linear-gradient(
+  185deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+
+#box2 {
+background-color: #1F2937;
+width: 450px;
+padding: 50px;
+
+color:white;
+text-align: center;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+}
+
+h1 {
+
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height, or 173% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+
+}
+
+.outer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 550px;
+    
+    
+}
+
+p {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+
+color: #D2D2D2;
+}
